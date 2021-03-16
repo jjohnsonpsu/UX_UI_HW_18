@@ -1,3 +1,35 @@
-.flexContainer {
+.mySkills{
+text-align: center;
+}
 
+.biggerContainer {
+justify-content: space-around;
+display: flex;
+}
+
+.flexContainer {
+padding: 10px;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 300px;
+/* width: 33%; */
+}
+
+img {
+height: 25%;
+}
+
+.myWork {
+text-align: center;
+}
+
+.workContainer{
+display: grid;
+grid-template-rows: 33% 33% 33%;
+grid-template-columns: 50% 50%;
+}
+
+.workGrid img{
+height: 60%;
 }
